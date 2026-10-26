@@ -46,4 +46,7 @@ This function will correct keypoint labels and gap-fill keypoint coordinates for
 ## Example Video
 An example video title "fingerIndiv.MOV" is include with this package. If this video is successfully processed through all steps, the outputs should correspond with the video and data in the results folder. The final "RESULTS" structure from "finger_indiv_pose_pipelines.m" is stored in "results.mat".
 
-
+## Funding Sources
+1. The Johns Hopkins University Claude D. Pepper Older Americans Independence Center, funded by the National Institute on Aging and National Institutes of Health (grant P30AG021334)
+1. The Translational Aging Research Training Program (NIA Grant T32AG058527)
+1. The Precise Center, funded by the NIH (grant P50HD118624)

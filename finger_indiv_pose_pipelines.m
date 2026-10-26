@@ -21,7 +21,7 @@ function RESULTS = finger_indiv_pose_pipelines(HAND)
 %Get count of frames
 nFrames_i = length(HAND.THUMB_1);
 
-%If therer are fewer than 3 frames of data, set Results to NaN
+%If there are fewer than 3 frames of data, set Results to NaN
 if nFrames_i < 3
     RESULTS = NaN;
 else
