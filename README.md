@@ -43,8 +43,8 @@ This function will correct keypoint labels and gap-fill keypoint coordinates for
 - It is best to record videos from the **frontal plane** since Mediapipe tracks finger motions the best from this angle and individuation measurements from this angle exhibit smaller errors relative to motion capture.
 - Tracking is best when the hand is upright with the palm facing directly towards the camera
 
-## Example Video
-An example video title "fingerIndiv.MOV" is include with this package. If this video is successfully processed through all steps, the outputs should correspond with the video and data in the results folder. The final "RESULTS" structure from "finger_indiv_pose_pipelines.m" is stored in "results.mat".
+## Example Data
+An example video title "fingerIndiv.MOV" is include with this package. If this video is successfully processed, it will return two files, fingerIndiv_body_outputs.csv and fingerIndiv_hand_outputs.csv. Examples of these files are provided in the exampleResults folder. A data dictionary (data_dictionary.xlsx) is provided which defines all variables in these CSV files. If these CSV files are processed correctly with "finger_indiv_pose_pipelines.m", then it will create a RESULTS structure. An example of this structure is also stored in the exampleResults folder in "results.mat".
 
 ## Funding Sources
 1. The Johns Hopkins University Claude D. Pepper Older Americans Independence Center, funded by the National Institute on Aging and National Institutes of Health (grant P30AG021334)
